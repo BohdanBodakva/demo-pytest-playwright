@@ -24,7 +24,7 @@ class TestAddNewTask:
         yield
         logged_page.close()
 
-    @pytest.fixture(scope="class")
+    @pytest.fixture(scope="function")
     def do_cleanup(self, get_config):
         yield
         logged_page = self.__class__.logged_page
