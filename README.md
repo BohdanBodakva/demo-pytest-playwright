@@ -9,4 +9,5 @@ Demo project that uses pytest-playwright for testing
 5. Execute "pip install -r requirements.txt" to install requirements
 6. Change "test_username" and "test_password" params in pytest.ini to actual registered login email and password (https://app.todoist.com)
 7. Run tests by executing "pytest"
+
 The last command runs two tests from TestAddNewTask class.
