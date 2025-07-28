@@ -1,6 +1,4 @@
-import re
 from playwright.sync_api import Page, expect
-
 
 class Login:
     HEADER_TEXT = "Today – Todoist"

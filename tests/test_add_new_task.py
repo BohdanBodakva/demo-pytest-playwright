@@ -2,7 +2,7 @@ import json
 import requests
 import pytest
 from playwright.sync_api import Browser, expect
-from tests.login import Login
+from login import Login
 
 
 class TestAddNewTask:
